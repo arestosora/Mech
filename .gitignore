@@ -1,0 +1,53 @@
+# Bytecode
+*.class
+nbproject/
+# Compiled and generated files
+/target/
+*.jar
+*.war
+*.ear
+*.log
+*.iml
+
+# IDE-specific files
+.idea/
+*.ipr
+*.iws
+*.iml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Maven specific files
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# Gradle specific files
+.gradle/
+build/
+
+# Eclipse specific files
+.settings/
+bin/
+*.launch
+*.classpath
+*.project
+
+# NetBeans specific files
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/nbactions.xml
+/nb-configuration.xml
+
+# IntelliJ IDEA specific files
+/out/
+/*.iml
+/.idea/
