@@ -29,6 +29,8 @@ public class MainVista extends javax.swing.JFrame {
         initComponents();
         cargarServiciosEnComboBox();
         cargarRepuestosEnComboBox();
+        this.setLocationRelativeTo(null);
+
     }
 
     /**

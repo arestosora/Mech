@@ -24,6 +24,7 @@ public class Logs extends javax.swing.JFrame {
     public Logs() {
         initComponents();
         cargarDatosTabla();
+        this.setLocationRelativeTo(null);
     }
 
     /**
@@ -84,7 +85,7 @@ public class Logs extends javax.swing.JFrame {
             model.addColumn("Repuesto");
             model.addColumn("Fecha");
 
-            // Agrega las filas al modelo
+            // Agrega las filas al modelo   
             for (Models.Log log : logsList) {
                 model.addRow(new Object[]{
                     log.getLogId(),
@@ -131,6 +132,7 @@ public class Logs extends javax.swing.JFrame {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new Logs().setVisible(true);
+                
             }
         });
     }
